@@ -1,0 +1,24 @@
+App Structure
+-------------
+
+● src
++---● actions
+|   |
+|   |-- api.js (handle all http request)
+|   |-- postPerson.js (Redux actions & action creators) 
+|   |-- store.js (configure redux store)
+|
++---● components
+|   |
+|   |--PostPersonForm.js (form operations) - child
+|   |--PostPersons.js  (list of records) - parent
+|   |--useForm.js (handles common form opearations)
+|
+|---● reducers
+|   |
+|   |--postPerson.js
+|   |--index.js
+|
+|-- App.js
+|-- index.js
+|-- index.css

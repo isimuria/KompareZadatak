@@ -4,11 +4,13 @@ U izradi ovog projekta korišten sljedeći stack: React, Redux, Node.js, MongoDB
 ## Kako pokrenuti projekt
 
 ```
-$ git clone https://github.com/isimuria/KompareZadatak
-$ cd KompareZadatak/api
-$ npm install
+git clone https://github.com/isimuria/KompareZadatak
+cd KompareZadatak/api
+npm install
+Pokrenite Api sa komandom "nodemon" ili "node index.js"
 
-$ cd KompareZadatak/klijent
-$ npm install
+cd KompareZadatak/klijent
+npm install
+Pokrenite sa "npm run start" komandom
 ```
  
